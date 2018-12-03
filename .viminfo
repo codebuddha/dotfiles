@@ -11,9 +11,9 @@
 ~Msle0~/\<using\>
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :qw
-:q
 :PluginInstall
 :exit
 
@@ -29,13 +29,15 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
-'1  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
-'2  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
-'3  1  0  ~/Codes/CPP_Lab/a.out
+'0  1  0  ~/.include
+'1  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
+'2  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
+'3  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
 '4  1  0  ~/Codes/CPP_Lab/a.out
+'5  1  0  ~/Codes/CPP_Lab/a.out
 
 # Jumplist (newest first):
+-'  1  0  ~/.include
 -'  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
 -'  2  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
 -'  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
@@ -133,10 +135,11 @@
 -'  1  0  ~/Codes/CPP_Lab/a.out
 -'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
 -'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
--'  1  0  ~/Codes/CPP_Lab/a.out
 
 # History of marks within files (newest to oldest):
+
+> ~/.include
+	"	1	0
 
 > ~/Codes/CPP_Lab/Algorithms/test.cpp
 	"	1	0
