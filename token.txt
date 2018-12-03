@@ -1,2 +1,5 @@
-code-settings-sync
+vscode-sync
 3d48905edf85d598dd32bce3ac100aab4fc26bd4
+ID: 
+9c974d7016c42c2c57a245395fdaca52
+publicID: 63b32d4f9be135a3b8f6e1d55d504288
