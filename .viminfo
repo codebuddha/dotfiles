@@ -11,7 +11,10 @@
 ~Msle0~/\<using\>
 
 # Command Line History (newest to oldest):
+:q!
 :q
+:!q
+:i
 :wq
 :iw
 :s
