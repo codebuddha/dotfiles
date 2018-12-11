@@ -13,6 +13,8 @@
 # Command Line History (newest to oldest):
 :q
 :wq
+:iw
+:s
 :qw
 :PluginInstall
 :exit
@@ -27,16 +29,28 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"1	LINE	0
+	im typing freely
+""-	CHAR	0
+	typing 
 
 # File marks:
-'0  1  0  ~/.include
-'1  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
-'2  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
-'3  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
-'4  1  0  ~/Codes/CPP_Lab/a.out
-'5  1  0  ~/Codes/CPP_Lab/a.out
+'0  22  3  ~/vim-notes/test.txt
+'1  1  153  ~/vim-notes/test.txt
+'2  3  0  ~/vim-notes/test.txt
+'3  2  0  ~/vim-notes/test.txt
+'4  1  0  ~/.include
+'5  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
+'6  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
+'7  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
+'8  1  0  ~/Codes/CPP_Lab/a.out
+'9  1  0  ~/Codes/CPP_Lab/a.out
 
 # Jumplist (newest first):
+-'  22  3  ~/vim-notes/test.txt
+-'  1  0  ~/vim-notes/test.txt
+-'  3  0  ~/vim-notes/test.txt
+-'  2  0  ~/vim-notes/test.txt
 -'  1  0  ~/.include
 -'  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
 -'  2  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
@@ -131,12 +145,40 @@
 -'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
 -'  1  0  ~/Codes/CPP_Lab/a.out
 -'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
 
 # History of marks within files (newest to oldest):
+
+> ~/vim-notes/test.txt
+	"	22	3
+	^	5	11
+	.	22	3
+	+	1	16
+	+	2	16
+	+	1	153
+	+	3	10
+	+	4	0
+	+	15	0
+	+	14	7
+	+	2	4
+	+	5	4
+	+	6	0
+	+	5	11
+	+	6	3
+	+	7	2
+	+	8	0
+	+	9	0
+	+	11	3
+	+	12	3
+	+	13	3
+	+	14	3
+	+	15	3
+	+	16	3
+	+	17	3
+	+	18	0
+	+	19	3
+	+	20	3
+	+	21	3
+	+	22	3
 
 > ~/.include
 	"	1	0

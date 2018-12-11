@@ -125,7 +125,7 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 
-
+export PATH=/usr/bin:$PATH
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/cuda/lib64:/opt/intel/lib/intel64_lin:/opt/intel/mkl/lib/intel64_lin:/opt/intel/ipp/lib/intel64_lin:/opt/arrayfire/lib:$LD_LIBRARY_PATH
 alias intelpython="source /opt/intelpython3/bin/activate"
