@@ -106,7 +106,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+    . ~/.bash_aliasesb
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -133,6 +133,8 @@ export JAVA_HOME="dirname `readlink -f java`"
 export JDK_HOME=/usr/lib/jvm/jdk-11.0.1
 
 eval $(thefuck --alias)
-
+#sourcing the Vulkan script to set: VULKAN_SDK, PATH, and VK_LAYER_PATH envs 
+source /home/abhirup/vulkan/1.1.92.1/setup-env.sh
+export VK_SDK_PATH=$VULKAN_SDK 
 #setting terminal title to reflect PWD
 PROMPT_COMMAND='echo -ne "\033]0;$(basename ${PWD})\007"'

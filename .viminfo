@@ -11,11 +11,20 @@
 ~Msle0~/\<using\>
 
 # Command Line History (newest to oldest):
-:q!
-:q
-:!q
-:i
 :wq
+:echo g:loaded_vim_live_preview
+:echo g:livepreview_previewer
+:LLPStartPreview
+:q
+:script
+:version
+:script .
+:q!
+:!q
+:LLPPStartPreview
+:LLP
+:w
+:i
 :iw
 :s
 :qw
@@ -35,23 +44,38 @@
 "1	LINE	0
 	im typing freely
 ""-	CHAR	0
-	typing 
+	d
 
 # File marks:
-'0  22  3  ~/vim-notes/test.txt
-'1  1  153  ~/vim-notes/test.txt
-'2  3  0  ~/vim-notes/test.txt
-'3  2  0  ~/vim-notes/test.txt
-'4  1  0  ~/.include
-'5  1  0  ~/Codes/CPP_Lab/Algorithms/test.cpp
-'6  2  14  ~/Downloads/linux_Tetris/scripts/make.sh
-'7  1  0  ~/Dropbox/CVPR Submission/Ankan_Paper/cvpr2019AuthorKit/latex/egpaper_for_review.tex
-'8  1  0  ~/Codes/CPP_Lab/a.out
-'9  1  0  ~/Codes/CPP_Lab/a.out
+'0  83  0  ~/Desktop/Test/Makefile
+'1  1  0  ~/Desktop/Test/Testing/makefile
+'2  21  2  ~/Desktop/Test/Testing/makefile
+'3  59  3  ~/vim-notes/sen.tex
+'4  5  2  ~/vim-notes/NERD_tree_1
+'5  1  22  ~/vim-notes/sen.tex
+'6  35  11  ~/vim-notes/NERD_tree_1
+'7  100  4  ~/vim-notes/NERD_tree_1
+'8  22  3  ~/vim-notes/test.txt
+'9  1  153  ~/vim-notes/test.txt
 
 # Jumplist (newest first):
+-'  83  0  ~/Desktop/Test/Makefile
+-'  1  0  ~/Desktop/Test/Makefile
+-'  1  0  ~/Desktop/Test/Testing/makefile
+-'  21  2  ~/Desktop/Test/Testing/makefile
+-'  59  3  ~/vim-notes/sen.tex
+-'  1  0  ~/vim-notes/sen.tex
+-'  5  2  ~/vim-notes/NERD_tree_1
+-'  6  2  ~/vim-notes/NERD_tree_1
+-'  1  0  ~/vim-notes/NERD_tree_1
+-'  35  11  ~/vim-notes/NERD_tree_1
+-'  52  2  ~/vim-notes/NERD_tree_1
+-'  1  0  ~/Papers and Notes/Scene Text Detection plus Segmentation.pdf
+-'  1  0  ~/vim-notes/test1
+-'  100  4  ~/vim-notes/NERD_tree_1
+-'  171  2  ~/vim-notes/NERD_tree_1
+-'  1  5  ~/vim-notes/test.txt
 -'  22  3  ~/vim-notes/test.txt
--'  1  0  ~/vim-notes/test.txt
 -'  3  0  ~/vim-notes/test.txt
 -'  2  0  ~/vim-notes/test.txt
 -'  1  0  ~/.include
@@ -134,25 +158,95 @@
 -'  1  0  ~/Codes/CPP_Lab/a.out
 -'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
 -'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
 
 # History of marks within files (newest to oldest):
 
+> ~/Desktop/Test/Makefile
+	"	83	0
+
+> ~/Desktop/Test/Testing/makefile
+	"	1	0
+	^	21	18
+	.	21	2
+	+	10	0
+	+	21	2
+
+> ~/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vim-notes/sen.tex
+	"	59	3
+	^	1	0
+	.	1	0
+	+	59	0
+	+	50	0
+	+	1	0
+
+> ~/vim-notes/NERD_tree_1
+	"	5	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vim-notes/test1
+	"	1	0
+
+> ~/Papers and Notes/Scene Text Detection plus Segmentation.pdf
+	"	9	0
+
+> ~/vim-notes/NERD_tree_4
+	"	1	0
+	.	1	0
+	+	1	0
+
 > ~/vim-notes/test.txt
-	"	22	3
+	"	1	5
 	^	5	11
 	.	22	3
 	+	1	16
@@ -183,6 +277,9 @@
 	+	21	3
 	+	22	3
 
+> ~/.vim/vimrc
+	"	35	0
+
 > ~/.include
 	"	1	0
 
@@ -197,14 +294,6 @@
 
 > ~/Codes/CPP_Lab/2dsort.cpp
 	"	68	0
-
-> ~/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
 > ~/Codes/CPP_Lab/a.out
 	"	1	0
