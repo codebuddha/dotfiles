@@ -3,6 +3,8 @@
 /home/abhirup/.gitignore
 /home/abhirup/.viminfo
 /home/abhirup/.bashrc
+/home/abhirup/.bash_aliases
 /home/abhirup/.vimrc
 /home/abhirup/.emacs.d/*
 /home/abhirup/.condarc
+

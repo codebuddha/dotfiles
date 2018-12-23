@@ -11,11 +11,11 @@
 ~Msle0~/\<using\>
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :echo g:loaded_vim_live_preview
 :echo g:livepreview_previewer
 :LLPStartPreview
-:q
 :script
 :version
 :script .
@@ -156,8 +156,6 @@
 -'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
 -'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
 -'  1  0  ~/Codes/CPP_Lab/a.out
--'  68  0  ~/Codes/CPP_Lab/2dsort.cpp
--'  1  0  ~/Codes/CPP_Lab/2dsort.cpp
 
 # History of marks within files (newest to oldest):
 
